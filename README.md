@@ -25,6 +25,7 @@ pip install stark
 ### API
 
 ```python
+
 from stark import generate
 
 length = 30
