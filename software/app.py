@@ -1,3 +1,6 @@
+from helpers import pretty
+
+
 def main():
     print("hello world")
 
@@ -5,3 +8,4 @@ def main():
 def greet(name):
     print("hello {}, nice to meet you !".format(name))
     print("programming is fun")
+    pretty()
