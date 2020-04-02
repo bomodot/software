@@ -24,7 +24,7 @@ pip install stark
 
 #### API
 
-```
+```python
 from stark import generate
 
 password = generate(length=30,types={'lowercase':15,'digits':10,'symbols':True})
